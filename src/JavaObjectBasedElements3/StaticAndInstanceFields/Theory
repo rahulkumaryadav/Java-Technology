@@ -1,5 +1,5 @@
 
-Note Reference link : https://www.guru99.com/java-static-variable-methods.html
+Note Reference link Example1: https://www.guru99.com/java-static-variable-methods.html
 
     The static can be:
     1.Static Variables
@@ -8,4 +8,18 @@ Note Reference link : https://www.guru99.com/java-static-variable-methods.html
 
     --------------------------------------------------------------------------------------
     1.Static variables
-    Static variable
+    Static variable in java is variable which belong to class and initialize once at the start of execution.
+    It is a variable which belong to class and not to object(instance)
+    Static variable initialize only once, at the start of execution.
+    These variable will be initialize first, before initialization of instance variables.
+    A static variable can be access directly by class name and does not need any object.
+
+
+    ---------------------------------------------------------------------------------------
+    2.Static Methods
+    Static method in java is method which belong to class not object(instance).A static method can access only static data.
+    It is a method which belongs to the class and not to the object(instance)
+    A static method can access only static data. It can not access non-static data (instance variables)
+    A static method can call only other static methods and can not call a non-static method from it.
+    A static method can be accessed directly by the class name and doesn’t need any object
+    A static method cannot refer to "this" or "super" keywords in anyway
