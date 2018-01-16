@@ -22,6 +22,7 @@ Using deserialization} → no constructor call
     https://dzone.com/articles/5-different-ways-to-create-objects-in-java-with-ex
 
     Example2:
+    https://beginnersbook.com/2013/04/oops-concepts/
 
 */
 
