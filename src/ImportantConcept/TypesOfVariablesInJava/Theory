@@ -1,0 +1,37 @@
+
+
+    Types of variable in java
+    Premitive variables --------->used to represents primitive values
+    Refrence variables------------>used to refer objects
+
+
+    On the basis of position and declaration these variable is further classified in following type
+    Intstance variable
+    class/static variables
+    Local variables
+
+
+    Instance variables :
+    Instance variables are declared in a class outside any method, constructor or block.
+    As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+    Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier then the default access specifier will be used.
+    Value of variable varies from object to objects.
+    Can not be accessed from static area directly
+
+    class/static variables:
+    values is not varies from object to object
+    know as class level variables
+
+     Local variables :
+     Created inside a block,constructure or methods
+     initialization is necessary before using it.
+     These variable are created when the block in entered or the function is called and destroyed after exiting from the block or when the call returns from the function.
+     The scope of these variables exists only within the block in which the variable is declared. i.e. we can access these variable only within that block.
+
+     -------------------------------------------------------------------------------------------------------------------
+     Note refrence video : https://www.youtube.com/watch?v=si9qdX76iMw
+
+
+
+
+
