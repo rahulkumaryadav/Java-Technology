@@ -52,7 +52,7 @@ public class Syllabus {
      Class Loader new
      Class Type and Meta Data new
      Instantiation and Runtime Information new
-     Runtime Manipulation, Method Object, Parameter Object etc. new
+     Runtime Manipulation, Method Object, Parameter Object etc. new -------------------pending
      7.Exception Handling
      Introduction of classical and modern techniques
      The try-catch construct
