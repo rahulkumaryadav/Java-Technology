@@ -1,0 +1,7 @@
+    Compostion in java is a design technique to implement has-a relationship in classes.
+    we can use java inheritance or Object composition in java for code reuse.
+    Java composition is achived by instance variables that refers to other class.
+    For example a Person has a Job
+
+    -------------------------------------------------------------------------------------------
+    refrence link 1: https://www.journaldev.com/1325/composition-in-java-example
