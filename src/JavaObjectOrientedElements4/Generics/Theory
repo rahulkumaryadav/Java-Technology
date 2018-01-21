@@ -1,0 +1,103 @@
+1. By durga soft link: https://www.youtube.com/watch?v=watjoMfP-3M&list=PLd3UqWTnYXOn4AAHRh5lmOXhoU0tZwTfU
+-------------------------------------------------------------------------------------------------------------------------
+    1.Introdution
+    2.generic classes
+    3.bounded types
+    4.generics methods and wild card character (?)
+    5.communication with non-generic code
+    6.conclusions
+
+
+
+     What is need of the generic concepts ?
+     The main objective of generic are
+     to provide Type-safety
+     and to resolve type casting problems.
+
+     Case 1: Type safety
+     Arrays are type safe i.e we can give the garantiee for the type of element presents inside the array
+     for example if our programme requirment is to hold only String type of objects we can chose stirng array
+     by mistake if we are to add any other type of object we will get compile time error.
+
+     Stirng[] r=new String[1000]
+     r[0]="ravi";
+     r[1]="deepak";
+     r[2]=new Integer(10);  -----------ce:incompatible type
+                                          found:java lang Interger
+                                          required:java lang String
+     hence String array can contain only String type of objects. Due to this we can give the garenty for the type of elemnt present
+     inside array hence array are safe to use with respect to type i.e array are type safe.
+     but collections are not type safe i.e we cant give the garenty for the type of elements present inside collection
+     for example if our programme requirment is to hold only string type of objects and if we chose arraylist by mistake if we are
+     trying to add any other type of object we wont get any compile type error but programm may fail yet run time.
+     ArrayList l= new ArrayList();
+     l.add("durg");
+     l.add("ravi");
+     l.add(new Integer(10));
+
+
+     String name1=(String)l.get(0);
+     String name2=(String)l.get(1);
+     Stirng name3=(String)l.get(2); ----RE:class cast exception
+     Hence we cant give the garenty for the type of elements present inside the collection due to this collection are
+     not safe to use with repect to type i.e collection are not type safe.
+     -------------------------------------------------------------------------------------------------------------------
+     case 2:type casting
+     in the array at the time of retrivel not required to perform type casting there is garranty for the  type of element present in array
+     String r =new Stirng[100];
+     r[0]="durga";
+
+     String name1=r[0];---------------type casting is not required to perform;
+     but in the case collection at the time of retiveal compusary it is requrind to perform type casting bcos thre is no garrnty type
+     of element present inside the callection.
+     ArryaList l = new ArrayList();
+     l.add("durga");
+     String name1=l.get(0);--------------CE:incompatible type
+                                         found :java.lang.Object
+                                         required:java.lang.String
+
+     String name1=(String)l.get(0);--------------type casting is mandatory
+     hence type casting is bigger headache in collection.
+     To over above problms of colletion sun people introduces generic concept in 1.5 version.
+     hence main objective of generic are to provide type safty and to resolve type casting problms.
+     ===========================================================================================================================================
+     for example to hold only string type of objects we can create generic version of arraylist object as follows
+     ArrayList<String> l =new ArrayList<String>();
+     for this arraylist we can add only string type of objects by mistake if trying to add any other type then we will get compile time
+     eror
+     l.add("durga");
+     l.add("ravi");
+     l.add(new Integer(10)); CE:
+     l.add("shiva");
+     hence through genrics we are getting type safty.
+     at the time of retrivel we are not requred to perform type casting.
+     String name1=l.get(0);----type is not requred.
+     hence through generics we can solve type casting problm.
+     .
+     .
+     .
+     .
+     .
+     .
+     .
+     .
+     .
+     .
+     .part2:13:52 min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
